@@ -4,6 +4,7 @@ A browser-based tool to detect AI-generated text by scanning for Unicode charact
 
 **[Try it live →](https://alexandr-gnrk.github.io/ai-char-detector/)**
 
+
 ## How it works
 
 Large language models tend to reproduce typographic Unicode characters from their training data — em dashes (`—`), curly quotes (`" "`), guillemets (`« »`), horizontal ellipsis (`…`), and various invisible zero-width characters. This tool scans pasted text for those characters, highlights them by type, and lets you replace them all with plain ASCII equivalents in one click.
